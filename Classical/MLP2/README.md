@@ -1,4 +1,4 @@
-# Task 2
+# MLP Task 2
 
 Create a custom multilayer perceptron. 
 It should contain 1 input layer that accepts all the pixels of the image (`input_size`) and a final layer, which outputs `num_classes` number of neurons.

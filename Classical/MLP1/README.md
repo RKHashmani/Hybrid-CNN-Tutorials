@@ -1,4 +1,4 @@
-# Task 1
+# MLP Task 1
 
 Create a simple multilayer perceptron with 2 layers. The 1st layer should accept all the pixels of the image (`input_size`) and output `num_hidden_neurons` number of values. The output should then be passed through an activation function (for example, ReLU). Finally, then 2nd layer should take as input `num_hidden_neurons` and output `num_classes` values.
 
