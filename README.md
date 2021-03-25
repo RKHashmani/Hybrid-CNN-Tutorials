@@ -1,2 +1,2 @@
-# IVMER_QCNN
+# IVMER-QCNN
 Practice Repo for IVMER Undergrads
