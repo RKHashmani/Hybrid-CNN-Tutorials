@@ -10,10 +10,10 @@ from MyCustomMLP import CustomMLP
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
 # Download the dataset
-train_data = datasets.MNIST(root='./data', train=True,
+train_data = datasets.MNIST(root='../data', train=True,
                             transform=transforms.ToTensor(), download=True)
 
-test_data = datasets.MNIST(root='./data', train=False,
+test_data = datasets.MNIST(root='../data', train=False,
                            transform=transforms.ToTensor())
 
 batch_size = 100
